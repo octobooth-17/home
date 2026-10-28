@@ -16,6 +16,11 @@ category pills.
 The browse cards use orange contribution-graph tiles instead of photos. Their
 repository names, stars, scores and versions are demo data, not live GitHub data.
 
+## Preview
+
+![Name badge screen at 320x240](assets/badge.png)
+![Offline browse screen at 320x240](assets/browse.png)
+
 ## Requirements
 
 No Wi-Fi is needed. Set `CONTACT_NAME` and `GITHUB_USERNAME` with the Settings
