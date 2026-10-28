@@ -11,6 +11,7 @@ previous_clear = badge.default_clear
 badge.default_clear = color.rgb(0, 0, 0)
 
 import ui
+import menu_clock
 
 from app import shared as shared_apps
 from achievements import draw_marquee
@@ -148,6 +149,7 @@ def update():
     tilt.update()
     apps.draw(tilt, opening, viewer.target() if viewer is not None else None)
     ui.draw_status(apps.active_index, len(apps), ribbon_hidden)
+    menu_clock.draw(ribbon_hidden)
     message = picker.message() if picker is not None and picker.is_open else None
     if message is not None:
         draw_marquee(*message)
