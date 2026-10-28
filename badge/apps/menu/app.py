@@ -10,6 +10,7 @@ from icons import ICONS
 TILES_PER_ROW = 4
 
 APP_ORDER = (
+    "attendee_chat",
     "badge",
     "contacts",
     "mona_paint",
